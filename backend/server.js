@@ -11,7 +11,7 @@ APP.use(EXPRESS.json());
 APP.use(UPLOAD());
 
 MONGOOOSE.connect(
-  "mongodb+srv://databasedeveloper:version2.0engaged@cluster0.pg4sw.mongodb.net/FILEBINDB?retryWrites=true&w=majority",
+  "YOUR_MONGO_URL",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
